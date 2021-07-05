@@ -34,7 +34,7 @@ section{
 
 
 .menu_interno{
-    justify-content-start;
+    
 }
 .menu_interno button{
     font-size: 13px;
@@ -57,7 +57,7 @@ section{
 .menu_externo button{
     font-size: 13px;
     color: #791097;
-    padding: 8px;
+    padding: 0px;
 }
 .contacto button{
     color: white;
@@ -70,11 +70,14 @@ section{
 
 /* Media queries NAV*/
 
-@media screen and (min-width: 576px){
-    .logo img{
-        width: 273px;
-        height: 55px;
-        margin-left: 200px;
+@media screen and (max-width: 576px){
+    .menu_hambur{
+        margin: 0;
+        padding: 0;
+    }
+    .boton svg{
+        margin: 0px;
+    }
 
 }
 @media screen and (min-width: 992px){
@@ -150,7 +153,7 @@ section{
     color: white;
     background-color: #791097;
 }
-
+/* Media queries CAJAS*/
 
 /*            BANNER             */
 
@@ -170,6 +173,7 @@ section{
 .boton_banner button{
     color: white;
     background-color: #791097;
+    margin-left: 30%;
 
 }
 
@@ -221,6 +225,7 @@ section{
 }
 
 /* Media queries SECTION2*/
+
 
 @media screen and (min-width: 768px){
     .caja_carousel{

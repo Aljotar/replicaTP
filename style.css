@@ -36,8 +36,9 @@ section{
 /*           MENU INTERNO           */
 
 
-.menu_interno{
-    
+.buscar_interno{
+    color: white;
+
 }
 .menu_interno button{
     font-size: 13px;

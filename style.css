@@ -41,16 +41,21 @@ section{
 
 }
 .menu_interno button{
-    font-size: 13px;
-    color: #791097;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #212529;
+    font-weight: 700;
     background: white;
     border: none;
-    box-shadow: 1px 1px 5px rgb(230, 230, 230);
+    box-shadow: 1px 1px 5px rgb(198 77 207);
 }
 .contacto button{ 
     background-color: #791097 ;
     color: white;
 
+}
+.offcanvas_header{
+    box-shadow: 1px 1px 3px black;
 }
 
 /*             MENU EXTERNO       */
@@ -68,6 +73,9 @@ section{
 }
 .idioma_externo{
     margin: 5px;
+}
+.lista_social{
+    list-style: none;
 }
 
 
